@@ -1,6 +1,6 @@
 using FluentValidation;
 using Microsoft.Extensions.DependencyInjection;
-using GameStore.Api.Validators; // 👈 ADD THIS
+using GameStore.Api.Validators;
 
 namespace GameStore.Api.Extensions;
 

@@ -22,4 +22,5 @@ public class CreateGameDtoValidator : AbstractValidator<CreateGameDto>
         RuleFor(x => x.ReleaseDate)
             .NotEqual(default(DateOnly));
     }
+    
 }
