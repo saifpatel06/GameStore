@@ -11,9 +11,8 @@ public class CreateGameDtoValidator : AbstractValidator<CreateGameDto>
             .NotEmpty()
             .MaximumLength(50);
 
-        RuleFor(x => x.Genre)
-            .NotEmpty()
-            .MaximumLength(20);
+        RuleFor(x => x.GenreId)
+            .NotEmpty();
 
         RuleFor(x => x.Price)
             .GreaterThan(0)
